@@ -40,7 +40,7 @@ The parameters were Chebyshev filtering, fc=22KHz.<br>
 The result was really good for coming from 8-bit PWM.<br>
 
 The SWO output is enabled on PB3, you can see the debug messages using SWO console.<br>
-You can see them without debugging, just connect the ST-Link utility, open "Prinf via SWO viewer", setting clock to 96000000Hz.br>
+You can see them without debugging, just connect the ST-Link utility, open "Prinf via SWO viewer", setting clock to 96000000Hz.<br>
 
 
 Example log:<br>
