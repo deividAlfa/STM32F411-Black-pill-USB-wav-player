@@ -11,7 +11,7 @@
 <a id="description"></a>
 ## Project description<br>
 
-This is just a training project that reads, parses and plays WAV files using PWM.<br>
+This is just a training project that reads, parses and plays WAV files using PWM from a USB drive (in FAT32 filesystem).<br>
 Uses a STM32F411CE "Black Pill" board running at 96MHz.<br>
 
 Supported WAV formats:
