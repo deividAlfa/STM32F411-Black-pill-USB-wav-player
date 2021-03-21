@@ -8,7 +8,7 @@
 #include "fatfs.h"
 #include "files.h"
 
-#define PCMsize	512
+#define PCMsize	2048		// Only 96KHz needs 2048 samples to avoid buffer underrun, otherwise 512 is OK
 uint16_t PCMbuffer[PCMsize];
 system_t systemStatus;
 extern FIL USBHFile;       /* File object for USBH */
